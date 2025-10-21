@@ -10,9 +10,8 @@ public class Main {
             System.out.println("1. Add");
             System.out.println("2. Subtract");
             System.out.println("3. Multiply");
-            System.out.println("4. Divide");
             System.out.println("5. Exit");
-            System.out.print("Choose an option (1-5): ");
+            System.out.print("Choose an option (1-4): ");
             int choice = sc.nextInt();
 
             if (choice == 5) {
@@ -72,7 +71,6 @@ public class Main {
         return a * b;
     }
 
-    public static double divide(double a, double b) {
-        return a / b;
     }
 }
+
