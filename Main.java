@@ -10,7 +10,7 @@ public class Main {
             System.out.println("1. Add");
             System.out.println("2. Subtract");
             System.out.println("3. Multiply");
-            System.out.println("4. Divide");
+            // System.out.println("4. Divide");
             System.out.println("5. Exit");
             System.out.print("Choose an option (1-5): ");
             int choice = sc.nextInt();
@@ -76,3 +76,4 @@ public class Main {
         return a / b;
     }
 }
+
